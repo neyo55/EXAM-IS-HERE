@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>SurveyformAltschl</title>
+    <link rel="stylesheet" href="surveyform.css">
+</head>
+<body>
+    <h1>AltSchoolers Survey Form</h1>
+
+    <form id="wrapper">
+        <fieldset>
+        <div class="box">    
+            <label for="name">Name </label>
+            <input id="name" name="name" type="text" size="80" required/> 
+            <label for="email">Email </label>
+            <input id="email" name="email" type="email" size="80" required/>
+            <label for="age">Age </label>
+            <input id="age" name="age" type="age" size="80" required/> 
+            <br> <br>
+            <label for="option">Which option best describes you? </label>
+                <select id="referrer"> 
+                  <option value="">(select one)</option>
+                  <option value="1">Student</option>
+                  <option value="2">Employed</option>
+                  <option value="3">Unemployed</option>
+                  <option value="4">Other</option>
+                </select>    
+        </div>
+
+        <div>
+            <br>
+            <label for="recommendation">Would you recommend ALTSCHOOL to a friend?</label>
+            <label for="yes"><input id="yes" type="radio" name="recommendation" class="inline" /> Yes</label>
+            <label for="no"><input id="no" type="radio" name="recommendation" class="inline" /> No</label>
+            <label for="maybe"><input id="maybe" type="radio" name="recommendation" class="inline" /> Maybe</label> <br>
+        </div>
+
+        <div class="lang">
+            <label for="framework">Language and Framework Known (Check all that apply)</label>
+                <input type="checkbox" name="C">C</input> <br> <br>
+                <input type="checkbox" name="C++">C++</input> <br> <br>
+                <input type="checkbox" name="C#">C#</input> <br> <br>
+                <input type="checkbox" name="Java">Java</input> <br> <br>
+                <input type="checkbox" name="Python">Python</input> <br> <br>
+                <input type="checkbox" name="JavaScript">JavaScript</input> <br> <br>
+                <input type="checkbox" name="React">React</input> <br> <br>
+                <input type="checkbox" name="Angular">Angular</input> <br> <br>
+                <input type="checkbox" name="Django">Django</input> <br> <br>
+                <input type="checkbox" name="Spring">Spring</input> <br> <br>      
+        </div>
+
+        <div id="area">
+            <label for="comments">Any comments or suggestions</label>
+            <textarea id="comments" name="comments" rows="3" cols="80" ></textarea> <br><br><br>
+            <input type="submit" value="Submit" class="submit">
+        </div>
+
+    </fieldset>
+    </form>
+    
+</body>
+</html>

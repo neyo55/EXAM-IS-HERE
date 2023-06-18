@@ -1,0 +1,99 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding: 30px 50px;
+    /* border: 1px solid red; */
+}
+header{
+    display: flex;
+   justify-content:space-between;
+   align-items: flex-end;
+}
+/* .navbar{
+display: flex;
+justify-content: flex-end;
+} */
+
+a{
+    text-decoration:none;
+    /* list-style-type: none; */
+    color: hsl(0, 0%, 75%);
+    /* color: red; */
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav ul {
+    display: flex;
+    /* border: 1px solid red; */
+    /* margin-right:520px ; */
+    justify-content: space-between;
+/* margin: 0;
+padding: 0; */
+}
+
+nav ul li {
+    margin-right: 60px;
+}
+
+nav ul li:last-child{
+    margin-right: 0;
+}
+
+.description{
+    display: flex;
+    margin-top:50px ;
+}
+
+/* .image{
+    border: 1px solid red;
+} */
+
+.container{
+    margin-top: 50px;
+    /* border: 1px solid red; */
+}
+
+.image img{
+    width: 100%;
+}
+.container h1{
+    margin-bottom: 40px;
+}
+
+.container p{
+    color: hsl(0, 0%, 75%);
+    margin-bottom: 40px;
+}
+
+form{
+    margin-bottom: 15px;
+   
+}
+input{
+    padding: 0px 15px;
+    width: 300px;
+    height: 40px;
+    color: hsl(0, 0%, 75%);
+    background-color: hsl(240, 75%, 98%);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px hsl(0, 0%, 75%);
+}
+
+input::placeholder{
+    color: hsl(0, 0%, 75%);
+}
+
+button{
+    /* padding: 0px 15px; */
+    width: 200px;
+    height: 40px;
+    outline: none;
+    background-color: hsl(224, 93%, 58%);
+    color: hsl(240, 75%, 98%);
+    border: none;
+    border-radius: 5px;
+}
